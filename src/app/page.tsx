@@ -1,9 +1,9 @@
-import { Titulo } from "./components/inicio";
+import { Build } from "./components/inicio";
 
 export default function Home() {
   return (
-    <div>
-      <Titulo />
+    <div className="flex items-center justify-center min-h-screen bg-build bg-center bg-cover">
+      <Build />
     </div>
   );
 }
